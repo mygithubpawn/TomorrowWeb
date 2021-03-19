@@ -1,0 +1,134 @@
+.com-list-box{
+    width: 100%;
+  margin: 0 auto;
+}
+.com-list-par{
+  width: 1180px;
+  margin: 0 auto;
+}
+.com-list-article-box{
+  width: 100%;
+  min-height: calc(80vh);
+}
+.com-list-left{
+  width: 850px;
+  padding: 10px 10px 10px 10px;
+}
+.com-list-right{
+  width: 300px;
+}
+.com-list-left-top{
+  height: 44px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  width: 100%;
+  border-radius: 4px;
+  line-height: 44px;
+}
+.com-list-left-top-box{
+  font-size: 14px;
+  padding-left: 10px;
+  color: #34495E;
+}
+.com-list-right-top-box{
+  font-size: 14px;
+  padding-right: 10px;
+  color: #34495E;
+}
+.com-search{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #6F8894;
+}
+.com-list-right-release{
+  padding: 10px;
+  margin: 0 auto;
+}
+.com-list-left-top-box span{
+  color: #6F8894;
+}
+.com-list-right-article{
+  width: 280px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+}
+.com-list-right-article-top span{
+  cursor: pointer;
+  font-weight: 600;
+}
+.com-list-right-article-top{
+  font-size: 16px;
+  border-bottom: 1px solid #EEEEEE;
+  height: 20px;
+  margin-bottom: 10px;
+  color: #6F8894;
+  line-height: 30px;
+  background-color: #FFFFFF;
+  padding: 0px 20px 15px 20px ;
+}
+.CaName-list{
+  width: 100%;
+}
+.CaNameList-list{
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 3px;
+  color: #6F8894;
+  transition: all 0.4s ease;
+}
+.CaNameList-list:hover{
+  background-color: #EFF3F5;
+}
+.CaNameList-list span{
+  cursor: pointer;
+  font-size: 14px;
+}
+.CaNameList-list span:hover{
+ color: #34495E;
+  font-weight: 600;
+}
+.CaNameList-list i{
+  font-size: 16px;
+  font-weight: 600;
+  float: right;
+}
+.look-from-box >>> .el-drawer.ttb {
+  width: 820px;
+  height:160px!important;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin: 0 auto;
+  outline: none;
+}
+.search-article-top-box{
+  margin-top: 40px;
+}
+.search-article-top-par{
+  margin: 0 auto;
+  /*background-color: #009432;*/
+  border: 1px solid  #2BC8DA;
+  width: 360px;
+  height: 38px;
+}
+.search-article-top-par i{
+  color: #2BC8DA;
+  padding: 2px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.search-article-top-par i:hover{
+  color: #009432;
+  transition: all 0.2s ease;
+}
+.search-article-top-par input{
+  height: 38px;
+  width:300px;
+  font-size: 14px;
+  color: #009432;
+  padding-left: 20px;
+  outline:none;
+  border: none;
+}

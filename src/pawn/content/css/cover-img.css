@@ -1,0 +1,44 @@
+.cover-index-box{
+  width: 100%;
+}
+.cover-index-par{
+  width: 100%;
+  margin-top: 10px;
+  background-color: #6F8894;
+  margin-bottom: 20px;
+}
+.image-picker-navigation{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cover-index-par >>> .el-radio-button__inner,
+.cover-index-par >>> :first-child.el-radio-button__inner,
+.cover-index-par >>> :last-child.el-radio-button__inner {
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 2px;
+}
+.cover-index-par label{
+  padding: 0;
+}
+.cover-list-box{
+  width: 300px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  height: 200px;
+  /*float: left;*/
+  text-align: center;
+}
+.cover-image-add >>> .el-upload-dragger{
+  width: 300px;
+  height: 200px;
+}
+.cover-abm-box{
+  /*width: 400px;*/
+  margin-top: 20px;
+  /*float: right;*/
+  text-align: center;
+  margin-bottom: 20px;
+  /*margin-right: 40px;*/
+}

@@ -1,0 +1,117 @@
+.time-index-box{
+  margin: 0 auto;
+  width: 100%;
+  /*height: 100vh;*/
+}
+.time-index-par{
+  width: 1180px;
+  margin: 0 auto;
+}
+.time-title-summary{
+  font-size: 14px;
+  font-family: 新宋体;
+  color: #34495E;
+  line-height: 24px
+}
+
+.time-index-list-par .time-title-par{
+  font-size: 25px;
+  color: #34495E;
+  font-family: "Caveat", cursive;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.time-index-list-par .time-title-par:hover{
+  color: #009432;
+}
+.time-list-page >>> .el-pager .number {
+  border-radius: 50%;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  transition: all 0.2s ease;
+}
+[v-cloak] {
+  display: none !important;
+}
+.time-list-page >>> .btn-next,
+.time-list-page >>> .btn-prev {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  transition: all 0.2s ease;
+}
+.time-list-page >>> .el-pager .number:hover,
+.time-list-page >>> .btn-next:hover,
+.time-list-page >>> .btn-prev:hover {
+  background: #ced6e0;
+}
+.time-list-page{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.time-index-date{
+  box-shadow: 5px 5px 5px #888888;
+  margin-bottom: 10px;
+  min-height: calc(80vh);
+  background-color: #FFFFFF;
+  padding: 20px 20px 0 15px ;
+  border-radius: 4px;
+  width: 750px;
+  margin-left: 6px;
+}
+.time-index-date >>> .el-timeline-item__node{
+  background-color: #2BC8DA ;
+}
+.top-index-time-box{
+  width: 360px;
+  border-radius: 4px;
+  border: 1px solid #EEF2FF;
+  background-color: #FFFFFF;
+}
+.top-index-time-par{
+  border-bottom: 1px solid #6F8894;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+}
+.top-index-time-par span{
+  color: #6F8894;
+  line-height: 30px;
+}
+.top-index-time-title-list{
+  width: 340px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.top-index-time-title-list span{
+  margin-left: 10px;
+  font-family: "Caveat", cursive;
+  font-size: 18px;
+  font-weight: 600;
+  color: #34495E;
+  transition: all 0.2s ease;
+}
+.top-index-time-title-list span:hover{
+  color: #009432;
+}
+.no-data{
+  width: 100px;
+  font-size: 14px;
+  color: #6E8793;
+  font-family: "SimSun";
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.no-data span{
+  margin: 0 auto;
+}

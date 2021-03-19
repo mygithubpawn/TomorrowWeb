@@ -1,0 +1,59 @@
+.link-index-box{
+  width: 100%;
+  margin: 0 auto;
+}
+.link-name span{
+  color: #34495E;
+}
+.link-index-par{
+  width: 1180px;
+  /*min-height: 500px;*/
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 15px;
+  min-height: calc(80vh);
+  background-color: #FFFFFF;
+}
+.link-index-friendship{
+  width: 1160px;
+  background-color: #2BC8DA;
+  text-align: center;
+  margin: 0 auto;
+}
+.link-list-box{
+  padding: 2px;
+  border-radius: 4px;
+  box-shadow:5px 5px 5px #888888;
+  border: 1px solid #EFF3F5;
+  margin-right: 32px;
+}
+
+.link-name span{
+  font-size: 16px;
+ margin-right: 5px;
+  font-weight: 600;
+  font-family: "Caveat", cursive;
+}
+.el-image{
+  transition: all 0.8s ease;
+}
+.el-image:hover{
+  transform: scale(1.2);
+  transition: 0.8s;/*过渡属性,设置完成放大所用时间2秒*/
+}
+.link-image{
+  width: 250px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  height: 80px;
+}
+.no-data{
+  width: 100px;
+  font-family: "SimSun";
+  font-size: 14px;
+  color: #797974;
+  margin: 0 auto;
+}
+.no-data span{
+  margin: 0 auto;
+}

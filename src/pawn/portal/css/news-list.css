@@ -1,0 +1,69 @@
+.news-list-top-px{
+  margin-top: 80px;
+  background-color: #EFF3F5;
+}
+.news-list-par{
+  width: 1180px;
+  margin: 0 auto;
+  background-color: #6F8894;
+}
+.news-list-der-par{
+  background-color: #EFF3F5;
+  min-height: calc(80vh);
+  padding: 20px 2px 20px 2px;
+}
+.news-list-top-box{
+  margin-bottom: 10px;
+}
+.news-list-box{
+  background-color: #EFF3F5;
+  margin: 0 auto;
+}
+.news-list-for-box{
+  margin-bottom: 20px;
+  /*margin-top: 30px;*/
+}
+.announcement-list-box{
+  padding: 20px 20px 20px 20px;
+  background-color: #FCF8E3;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.waitNews-list-box{
+  padding: 20px 20px 20px 20px;
+  background-color: #FCF8E3;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.news-list-for-box span{
+  font-size: 14px;
+  font-weight: 600;
+  color: #009432;
+  cursor: pointer;
+}
+.news-list-for-box span:hover{
+ color: #6F8894;
+}
+.waitNews-par-button{
+  margin-top:30px;
+}
+.news-page-par{
+  padding-top: 20px;
+  text-align: center;
+}
+.news-page-par >>> .el-pager li{
+  background-color: #FCF8E3;
+}
+.news-page-par >>> .el-pagination button:disabled{
+  background-color: #FCF8E3;
+}
+.news-page-par >>> .el-pagination .btn-next,
+.news-page-par >>> .el-pagination .btn-next,
+.news-page-par >>>.el-pagination .btn-prev{
+  background-color: #FCF8E3;
+}
+.No-news-box{
+  text-align: center;
+  font-size: 14px;
+  color: #6F8894;
+}

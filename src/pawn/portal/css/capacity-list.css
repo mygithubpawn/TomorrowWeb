@@ -1,0 +1,111 @@
+.capacity-list-box{
+  width: 100%;
+}
+.capacity-list-par{
+  width: 1180px;
+  margin: 0 auto;
+}
+.article-list-capacity-box{
+  width: 820px;
+  margin-top: 40px;
+}
+.article-list-capacity{
+  margin-bottom: 35px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  background-color: #FFFFFF;
+}
+.article-list-capacity:hover{
+  box-shadow: 0 0 3px 3px #C0C4CC;
+}
+.article-list-img{
+  width: 270px;
+  overflow: hidden;
+  border-radius: 2px;
+  height: 210px;
+  margin: 8px 30px 8px 8px;
+}
+.el-image{
+  transition: all 0.8s ease;
+}
+.el-image:hover{
+  transform: scale(1.2);
+  transition: 0.8s;/*过渡属性,设置完成放大所用时间2秒*/
+}
+.article-list-data{
+  line-height: 40px;
+  font-size: 20px;
+  margin-top: 8px;
+  color: #2BC8DA;
+  cursor: pointer;
+  font-family: "新宋体" !important;
+}
+.image-picker-navigation .article-list-page-navigation-bar {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.article-list-page-navigation-bar >>> .el-pager .number {
+  border-radius: 50%;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  transition: all 0.2s ease;
+}
+.article-list-page-navigation-bar >>> .btn-next,
+.article-list-page-navigation-bar >>> .btn-prev {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  transition: all 0.2s ease;
+}
+.article-list-page-navigation-bar >>> .el-pager .number:hover,
+.article-list-page-navigation-bar >>> .btn-next:hover,
+.article-list-page-navigation-bar >>> .btn-prev:hover {
+  background: #ced6e0;
+}
+
+.article-list-title{
+  cursor: pointer;
+  font-size: 22px;
+  color: #34495E;
+  padding-right: 140px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-bottom: 15px;
+  font-family: "新宋体" !important;
+}
+.article-list-summary{
+  overflow: hidden;
+  font-family: "新宋体" !important;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.capacity-her-keyword-box{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.capacity-her-keyword-box .capacity-her-ti{
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.capacity-her-keyword-box .capacity-her-keyword{
+  font-size: 24px;
+  color: #2BC8DA;
+}
+.no-articles-box{
+  width: 100%;
+  text-align: center;
+}
+.no-articles-box span{
+  font-size: 14px;
+  color: #6F8894;
+}

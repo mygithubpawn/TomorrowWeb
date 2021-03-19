@@ -1,0 +1,177 @@
+h1 {
+    font-family: 'Lato','sans-serif';
+    font-weight: 300;
+    /* font-spacing:2px; */
+    font-size: 48px;
+}
+.header {
+    position: relative;
+    text-align: center;
+     /*背景渐变 */
+    background: linear-gradient(60deg,
+    #34e7e4,
+    #4bcffa 10%,
+    #575fcf 50%,
+    #575fcf 20%,
+    #0fbcf9,
+    #0be881);
+}
+.lnner-header {
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  /*background-color: #009432;*/
+    /* flex */
+    /* 垂直居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.waves {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -7px;
+    /* 最小值 */
+    min-height: 100px;
+    /* 最大值 */
+    max-height: 150px;
+}
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+/* 选择的一个use */
+.parallax>use:nth-child(1) {
+    /* 延迟 2s 执行 */
+    animation-delay: -2s;
+    /* 7s 内 执行完毕 */
+    animation-duration: 7s;
+}
+.parallax>use:nth-child(2) {
+      animation-delay: -3s;
+      animation-duration: 10s;
+}
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+/* 动画 */
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% {
+        transform: translate3d(85px,0,0);
+    }
+}
+/* 当屏幕小于 768px 执行 */
+@media (max-width : 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+    h1   {
+        font-size: 24px;
+    }
+}
+.community-top-box{
+  height: 60px;
+  margin: 0 auto;
+  width: 1180px;
+}
+.community-top-left-box span{
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 60px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+  padding: 4px 15px 4px 15px;
+}
+.community-top-left-box span:hover{
+  background-color: #509EE7;
+}
+.community-top-right-box .land span{
+  line-height: 60px;
+  margin-right: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+ padding: 3px 10px 4px 10px;
+  color: #FFFFFF;
+  transition: all 0.2s ease;
+  background-color: #0FC1EC;
+}
+.community-top-right-box{
+  height: 60px;
+}
+.community-top-right-box .user-info{
+  line-height: 60px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #FFFFFF;
+  transition: all 0.2s ease;
+}
+.user-info-name-box span{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+}
+.community-top-right-box .el-dropdown-link-img{
+  padding-top: 12px;
+  margin-right: 6px;
+}
+.community-top-right-box .land span:hover{
+  background-color: #0CDAA8;
+}
+.web-info-box .web-info-title{
+  font-size: 26px;
+  cursor: pointer;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.web-info-box .web-info-in{
+  cursor: pointer;
+  font-size: 14px;
+  font-family:"新宋体";
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.web-info-box .web-info-heading{
+  font-size: 34px;
+  cursor: pointer;
+  font-family: 'Lato','sans-serif';
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.web-Introduction-box{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #06A4C0;
+}
+.web-about-par{
+  margin-bottom: 10px;
+}
+.web-Introduction-box .web-about-par span{
+  font-size: 12px;
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0 10px;
+}
+.web-Introduction-par{
+  margin-bottom: 10px;
+}
+.web-Introduction-box .web-Introduction-par span{
+  font-size: 12px;
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+}

@@ -1,0 +1,89 @@
+.about-index-box{
+    margin: 0 auto;
+  width: 100%;
+}
+.about-index-par{
+  width: 100%;
+  margin: 0 auto;
+}
+.about-index-info-box{
+  width: 100%;
+  margin: 0 auto;
+}
+.about-user-info{
+  width: 100%;
+  margin-top: 20px;
+  background-color: #333333;
+  color: #FFFFFF;
+  height: 400px;
+  margin-bottom: 60px;
+}
+.about-user-info .about-user-img{
+  width: 200px;
+  padding-top: 80px;
+  text-align: center;
+  margin: 0 auto;
+}
+.about-user-info .about-user-name{
+  width: 1180px;
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: 600;
+  font-family: "Caveat", cursive;
+  text-align: center;
+  margin: 0 auto;
+}
+.about-user-info .about-user-occupation{
+  width: 1180px;
+  font-size: 16px;
+  padding-top: 4px;
+  font-weight: 600;
+  font-family: "Caveat", cursive;
+  text-align: center;
+  margin: 0 auto;
+}
+.about-user-roles-par{
+  width: 1180px;
+  border-radius: 4px;
+  line-height: 50px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-left: 20px;
+  background-color: #F4F5F6;
+  box-shadow: 5px 5px 5px #888888;
+  font-family: "Caveat", cursive;
+}
+.about-user-roles-par span{
+  text-align: center;
+  margin: 0 auto;
+  color: #34495E;
+}
+.about-user-roles{
+  min-height: 300px;
+}
+.about-user-roles-text{
+  width: 1180px;
+  font-size: 18px;
+  line-height: 30px;
+  border-radius: 4px;
+  margin: 0 auto;
+  color: #34495E;
+  min-height: 200px;
+  font-weight: 500;
+  font-family: "Caveat", cursive;
+  padding: 20px 40px 10px 20px;
+  background-color: #FFFFFF;
+}
+.no-data{
+  width: 220px;
+  font-size: 14px;
+  color: #6E8793;
+  font-family: "SimSun";
+  margin: 0 auto;
+}
+.no-data span{
+  margin: 0 auto;
+}
