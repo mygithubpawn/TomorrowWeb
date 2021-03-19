@@ -72,7 +72,7 @@ router.beforeEach((to, from, next) => {
           // } else {
           //   if (to.path === '/user/list') {
           //   }
-          //   next();
+            next();
           // }
         } else {
           //跳转到登陆页面

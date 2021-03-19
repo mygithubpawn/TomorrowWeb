@@ -147,7 +147,7 @@
                   <el-input
                     show-word-limit
                     type="textarea"
-                    minlength="0" 
+                    minlength="0"
                     maxlength="400"
                     resize="node"
                     placeholder="留言内容..."
@@ -322,6 +322,7 @@
     mounted() {
       this.handleClick();
       this.getUserToken();
+      this.Today();
       // 单个页面路由回到浏览器顶部
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
